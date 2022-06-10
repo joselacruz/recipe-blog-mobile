@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,500&family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+   
+}
+.grilla{
+    width: 95%;
+}
+
+.main-info{
+    min-height: 150px;
+}
+
+.main-info h1{
+    margin-block-start: 32px;
+    margin-block-end: 12px;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+}
+.main-info p span{
+    display: inline-block;
+    width: 34px;
+    background-image: url(../asset/icons/6dots.svg);
+    background-repeat: no-repeat;
+    padding-inline-start: 10px;
+    margin-block-start: 3px;
+    
+}
+.main-info p{
+    display: inline-flex;
+    min-width: 310px;
+    max-width: 592px;
+    max-height:88px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+    color: rgba(79, 79, 79, 1);
+    padding: 0 10px 0 6px;
+}
+.main-img-container{
+    margin-block-start: 22px;
+    max-width:969px;
+    max-height: 470px;
+}
+
+.main-img-container img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.main-propietes-plates{
+    margin-block-start: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.yields-info small {
+    color: rgba(189, 189, 189, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.97rem;
+    line-height: 0.97rem;
+    font-weight: 700;
+}
+
+.yields-info p {
+    color: rgba(242, 153, 74, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+.yields-imgs{
+    width: 20px;
+    height: 20px;
+    background-image: url("../asset/icons/file-svg-fork-1167667.png");
+    background-size: cover;
+    filter: opacity(0.3) drop-shadow(0 0 0 yellow);
+}
+.propietes-yields{
+
+    display: flex;
+    gap: 5px;
+    grid-column: 1/4;
+}
+
+.propites-per-time{
+    margin-block-start: 10px;
+}
+
+.propietes-coking{
+    display: flex;
+    gap: 5px;
+}
+
+.per-time-img{
+    width: 20px;
+    height: 20px;
+    background-image: url("../asset/icons/clock-svgrepo-com.svg");
+    background-size: cover;
+}
+.propietes-coking small{
+    color: rgba(189, 189, 189, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.97rem;
+    line-height: 0.97rem;
+    font-weight: 700;
+}
+
+.propietes-coking p{
+    color:  rgba(51, 51, 51, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    
+}
+
+.intructions-ingredients{
+    margin-block-start: 20px;
+}
+
+.intructions-ingredients h2{
+  color: rgba(51, 51, 51, 1);
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+
+}
+.intructions-ingredients p {
+    color: rgba(51, 51, 51, 1);
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    margin-block-end: 15px;
+    margin-block-start: 12px;
+}
+.intructions-ingredients ul{
+    margin-block-start: 125px;
+    margin: 0;
+    color:rgba(51, 51, 51, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    margin-inline-start: 20px;
+    list-style:url(../asset/icons/rectangle-thin-svgrepo-com.svg)
+
+    
+}
+.intructions-cards{
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    margin-block-start: 22px;
+}
+.intructions-component{
+    min-width: 42px;
+    min-height: 42px;
+    background-color: rgba(242, 153, 74, 1);
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color:rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    
+}
+ .intructions-cards .intrunctions-info{
+     color: rgba(51, 51, 51, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+}
+.intructions-prepared h1{
+    color:  rgba(51, 51, 51, 1);
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.1rem;
+    margin-block-start: 22px;
+    
+}
+
+.intructions-prepared a {
+    color: rgba(189, 189, 189, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.8rem;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-block-start: 22px;
+    display: block;
+}
+
+footer p{
+    margin-block-start: 129px;
+    color: rgba(130, 130, 130, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    text-align: center;
+
+}
